@@ -3,7 +3,7 @@
     margin: 0;
 }
 body{
-    background-color: sandybrown;
+    background-color: #FF851B;
     height: 100%;
     width: 100%;
 }
@@ -12,7 +12,7 @@ header{
     padding-top: 2vw;
     font-size: 9vw;
     font-family: Georgia;
-    color: sandybrown;
+    color: #FF851B;
     text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
     transition: 1s;
 }
