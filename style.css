@@ -27,7 +27,7 @@ header{
 body > .main{
     background-color: #f0ffff;
     height: 40%;
-    width: 40%;
+    width: 50%;
     text-align: center;
 }
 #contactForm{
@@ -58,4 +58,15 @@ body > .main{
     padding-left: 30px;
     padding-right: 30px;
     font-size: 20px;
+}
+
+@media screen and (max-width: 768px){
+    header{
+        font-size: 12vw;
+    }
+
+    body > .main{
+        height: 60%;
+        width: 60%;
+    }
 }
